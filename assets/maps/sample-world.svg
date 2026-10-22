@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<linearGradient id="sea" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d7e7ee"/><stop offset="1" stop-color="#8fb4c5"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values=".15"/><feBlend mode="multiply" in2="SourceGraphic"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#sea)"/>
+<path d="M135 225 C260 105 520 115 690 232 C810 315 765 510 625 602 C455 713 230 660 122 510 C55 415 48 310 135 225Z" fill="#d7d1a6" stroke="#5a675a" stroke-width="8"/>
+<path d="M920 250 C1095 130 1375 182 1482 352 C1580 510 1460 750 1240 790 C1018 831 837 678 805 502 C785 390 830 314 920 250Z" fill="#c9d0a2" stroke="#5a675a" stroke-width="8"/>
+<path d="M540 720 C690 650 865 675 940 795 C1004 900 890 972 705 952 C575 938 455 820 540 720Z" fill="#e0c794" stroke="#5a675a" stroke-width="7"/>
+<path d="M0 870 C270 810 390 980 650 900 C900 820 1130 915 1600 840 L1600 1000 L0 1000Z" fill="#587f72" opacity=".18"/>
+<g fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="2">
+<path d="M0 190 C320 250 525 130 800 210 C1070 290 1250 230 1600 310"/>
+<path d="M0 430 C300 490 510 390 795 455 C1110 528 1320 465 1600 545"/>
+<path d="M0 655 C370 715 520 620 810 690 C1125 767 1320 690 1600 760"/>
+</g>
+<text x="62" y="930" fill="#233035" font-family="Georgia,serif" font-size="34">Polis Map base map</text>
+</svg>

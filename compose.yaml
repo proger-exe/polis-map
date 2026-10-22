@@ -1,0 +1,22 @@
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:${PORT:-8000}:8000"
+    volumes:
+      - ./data:/app/data
+      - ./assets/maps:/app/assets/maps
+    mem_limit: 256m
+
+  bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "-m", "bot.main"]
+    depends_on: [api]
+    volumes:
+      - ./data:/app/data
+    mem_limit: 128m
+    profiles: [bot]
