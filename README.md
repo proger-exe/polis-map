@@ -1,8 +1,12 @@
 # Polis Map
 
-Interactive political map for roleplay communities: states, polygon territories, colonization requests with moderation, an audit log, PNG export and optional Telegram account linking.
+<!-- portfolio-card:start -->
+[![Polis Map — Территории, государства и история общего мира.](docs/portfolio/card.png)](docs/portfolio/screenshot.png)
 
-![Polis Map](docs/banner.png)
+Скриншот работающего веб-демо Polis Map. [Полный размер](docs/portfolio/screenshot.png).
+<!-- portfolio-card:end -->
+
+Interactive political map for roleplay communities: states, polygon territories, colonization requests with moderation, an audit log, PNG export and optional Telegram account linking.
 
 ## What it does
 
